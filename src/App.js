@@ -9,9 +9,13 @@ function App() {
   const [bPlus, setBPlus] = useState(true);
   const [green, setGreen] = useState(0);
   const [gPlus, setGPlus] = useState(true);
+  const [starH, setStarH] = useState(0);
+  const [starV, setStarV] = useState(0);
+  const [starO, setStarO] = useState(0.5);
+  const [starOUp, setStarOUp] = useState(false);
 
   useEffect(() => {
-    console.log(red, green, blue);
+    // console.log(red, green, blue);
 
     setTimeout(() => {
       if (red >= 255) {
@@ -40,6 +44,23 @@ function App() {
     }, 100);
   }, [red, green, blue]);
 
+  useEffect(() => {
+    console.log(starO, starH, starV);
+    setTimeout(() => {
+      if (starO <= 0 && !starOUp) {
+        setStarH(Math.random() * window.screen.width);
+        setStarV(Math.random() * window.screen.height);
+        setStarOUp(true);
+      } else if (starO >= 1 && starOUp) {
+        setStarOUp(false);
+      } else if (starOUp && starO < 1) {
+        setStarO(starO + 0.01);
+      } else if (!starOUp && starO > 0) {
+        setStarO(starO - 0.01);
+      }
+    }, 10);
+  }, [starO, starOUp]);
+
   return (
     <div
       style={{
@@ -50,7 +71,12 @@ function App() {
         padding: 'auto',
       }}
     >
-      <img src={logo} className="App-logo" alt="logo" />
+      <img
+        src={logo}
+        className="App-logo"
+        alt="logo"
+        style={{ position: 'absolute', left: starH, up: starV, opacity: starO }}
+      />
       <h1 style={{ marginLeft: '2rem' }}>
         We can modify background to simulate the synesthesia experience based on
         podcast and musical sounds.
