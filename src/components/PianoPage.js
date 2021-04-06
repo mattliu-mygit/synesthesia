@@ -73,12 +73,10 @@ const PianoPage = () => {
             Test it out yourself! Choose a person and see the colors they see
             when this piano is played! (If the piano breaks, refresh this page)
           </div>
-          <div id={backgroundColor}>
-            <PianoContainer
-              changeBGColor={changeBGColor}
-              setBackgroundColor={setBackgroundColor}
-            />
-          </div>
+          <PianoContainer
+            changeBGColor={changeBGColor}
+            setBackgroundColor={setBackgroundColor}
+          />
         </div>
       </div>
     </>

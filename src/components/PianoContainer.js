@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Piano, KeyboardShortcuts, MidiNumbers } from "react-piano";
 import "react-piano/dist/styles.css";
 import AudioPlayer from "../files/AudioPlayer";
-import SoundFontPlayer from "soundfont-player";
-import AudioContext from "../files/AudioContext";
 const audioPlayer = AudioPlayer();
 
 const PianoContainer = (props) => {
@@ -14,41 +12,7 @@ const PianoContainer = (props) => {
     lastNote: lastNote,
     keyboardConfig: KeyboardShortcuts.HOME_ROW,
   });
-  const [activeNotes, setActiveNotes] = useState([]);
 
-  // const NullSoundFontPlayerNoteAudio = {
-  //   stop() {},
-  // };
-  // const NullSoundFontPlayer = {
-  //   play() {
-  //     return NullSoundFontPlayerNoteAudio;
-  //   },
-  // };
-  // const AudioPlayer = () => {
-  //   //Audio Context
-  //   const audioContext = AudioContext && new AudioContext();
-  //   //soundPlayer
-  //   let soundPlayer = NullSoundFontPlayer;
-  //   //setInstrument
-  //   const Player = {
-  //     setInstrument(instrumentName) {
-  //       SoundFontPlayer.instrument(audioContext, instrumentName)
-  //         .then((soundfontPlayer) => {
-  //           soundPlayer = soundfontPlayer;
-  //         })
-  //         .catch((e) => {
-  //           soundPlayer = NullSoundFontPlayer;
-  //         });
-  //     },
-  //     playNote(note) {
-  //       soundPlayer.play(note);
-  //       // console.log("note", note);
-  //       props.setBackgroundColor("red");
-  //       // props.changeBGColor(note);
-  //     },
-  //   };
-  //   return Player;
-  // };
   useEffect(() => {
     audioPlayer.setInstrument("acoustic_grand_piano");
   }, [audioPlayer]);
@@ -73,7 +37,6 @@ const PianoContainer = (props) => {
           // props.changeBGColor(midiNumber);
         }}
         width={1000}
-        activeNotes={activeNotes}
       />
     </div>
   );
