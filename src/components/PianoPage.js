@@ -45,26 +45,43 @@ const PianoPage = () => {
   };
 
   return (
-    <div
-      style={{
-        position: "absolute",
-        top: 0,
-        backgroundColor: backgroundColor,
-        height: "100%",
-        padding: "5rem",
-      }}
-    >
-      <div style={{ marginBottom: "1rem" }}>
-        Test it out yourself! Choose a person and see the colors they see when
-        this piano is played! (If the piano breaks, refresh this page)
+    <>
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          backgroundColor: backgroundColor,
+          height: "100%",
+          width: "100%",
+          opacity: 0.4,
+        }}
+      ></div>
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          height: "100%",
+          width: "100%",
+        }}
+      >
+        <div
+          style={{
+            padding: "5rem",
+          }}
+        >
+          <div style={{ marginBottom: "1rem" }}>
+            Test it out yourself! Choose a person and see the colors they see
+            when this piano is played! (If the piano breaks, refresh this page)
+          </div>
+          <div id={backgroundColor}>
+            <PianoContainer
+              changeBGColor={changeBGColor}
+              setBackgroundColor={setBackgroundColor}
+            />
+          </div>
+        </div>
       </div>
-      <div id={backgroundColor}>
-        <PianoContainer
-          changeBGColor={changeBGColor}
-          setBackgroundColor={setBackgroundColor}
-        />
-      </div>
-    </div>
+    </>
   );
 };
 
