@@ -51,7 +51,6 @@ const PianoPage = () => {
         top: 0,
         backgroundColor: backgroundColor,
         height: "100%",
-        width: "100%",
         padding: "5rem",
       }}
     >
