@@ -7,36 +7,36 @@ import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 
 const options = ["test1", "test2", "test3"];
-const musicMap = new Map([
+const podcastMap = new Map([
   [options[0], test1],
   [options[1], test2],
   [options[2], test3],
 ]);
 
-const Sounds = () => {
-  const [musicName, setMusicName] = useState(options[0]);
-  const [music, setMusic] = useState(musicMap.get(options[0]));
-  const chooseMusic = (selected) => {
-    setMusicName(selected.value);
-    setMusic(musicMap.get(selected.value));
-    console.log("music name is ", musicName);
+const PodcastPage = () => {
+  const [podcastName, setPodcastName] = useState(options[0]);
+  const [podcast, setPodcast] = useState(podcastMap.get(options[0]));
+  const choosePodcast = (selected) => {
+    setPodcastName(selected.value);
+    setPodcast(podcastMap.get(selected.value));
+    console.log("podcast name is ", podcastName);
   };
   return (
     <div style={{ padding: "5rem" }}>
       <div style={{ marginBottom: "1rem", fontWeight: "500" }}>
-        Choose a music below to play:
+        Choose a podcast below:
       </div>
       <Dropdown
         options={options}
-        onChange={chooseMusic}
-        value={musicName}
+        onChange={choosePodcast}
+        value={podcastName}
         placeholder="Select an option"
       />
       <div style={{ marginTop: "1rem" }}>
-        <ReactAudioPlayer src={music} controls />
+        <ReactAudioPlayer src={podcast} controls />
       </div>
     </div>
   );
 };
 
-export default Sounds;
+export default PodcastPage;

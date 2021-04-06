@@ -1,35 +1,71 @@
-import React, { useEffect } from 'react';
-import { Piano, KeyboardShortcuts, MidiNumbers } from 'react-piano';
-import 'react-piano/dist/styles.css';
-import AudioPlayer from '../files/AudioPlayer';
+import React, { useEffect, useState } from "react";
+import PianoContainer from "./PianoContainer";
 
 const PianoPage = () => {
-  const firstNote = MidiNumbers.fromNote('c3');
-  const lastNote = MidiNumbers.fromNote('f5');
-  const audioPlayer = AudioPlayer();
-  useEffect(() => {
-    audioPlayer.setInstrument('acoustic_grand_piano');
-  }, [audioPlayer]);
-  const keyboardShortcuts = KeyboardShortcuts.create({
-    firstNote: firstNote,
-    lastNote: lastNote,
-    keyboardConfig: KeyboardShortcuts.HOME_ROW,
-  });
+  const testColors = [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "purple",
+    "indigo",
+    "violet",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "purple",
+    "indigo",
+    "violet",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "purple",
+    "indigo",
+    "violet",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "purple",
+    "indigo",
+    "violet",
+  ];
+  const [backgroundColor, setBackgroundColor] = useState("transparent");
+  // const [midi];
+  const changeBGColor = (midiNumber) => {
+    if (midiNumber - 48 < testColors.length) {
+      setBackgroundColor(testColors[midiNumber - 48]);
+    }
+  };
 
   return (
-    <Piano
-      noteRange={{ first: firstNote, last: lastNote }}
-      playNote={(midiNumber) => {
-        // Play a given note - see notes below
-        audioPlayer.playNote(midiNumber);
+    <div
+      style={{
+        position: "absolute",
+        top: 0,
+        backgroundColor: backgroundColor,
+        height: "100%",
+        width: "100%",
+        padding: "5rem",
       }}
-      stopNote={(midiNumber) => {
-        // Stop playing a given note - see notes below
-        // audioPlayer.playNote(midiNumber);
-      }}
-      width={1000}
-      keyboardShortcuts={keyboardShortcuts}
-    />
+    >
+      <div style={{ marginBottom: "1rem" }}>
+        Test it out yourself! Choose a person and see the colors they see when
+        this piano is played! (If the piano breaks, refresh this page)
+      </div>
+      <div id={backgroundColor}>
+        <PianoContainer
+          changeBGColor={changeBGColor}
+          setBackgroundColor={setBackgroundColor}
+        />
+      </div>
+    </div>
   );
 };
 

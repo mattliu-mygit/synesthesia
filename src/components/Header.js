@@ -1,23 +1,34 @@
-import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 const headerButton = {
-  padding: '0.2rem',
-  borderRadius: '0px',
-  border: 'none',
-  outline: 'none',
-  boxShadow: 'none',
-  marginBottom: '0.1rem',
+  padding: "0.2rem",
+  borderRadius: "0px",
+  border: "none",
+  outline: "none",
+  boxShadow: "none",
+  marginBottom: "0.1rem",
+  color: "white",
 };
 
 function Header() {
   const activeStyle = {
-    color: '#89cff0',
-    backgroundColor: 'transparent',
+    color: "#89cff0",
+    backgroundColor: "transparent",
   };
   return (
     <>
-      <nav className="headerBar" style={{ color: '#D8D8D8' }}>
+      <nav
+        className="headerBar"
+        style={{
+          position: "absolute",
+          top: "0rem",
+          color: "white",
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
+          width: "100%",
+          padding: "0.5rem",
+        }}
+      >
         <NavLink
           className="btn btn-primary header-btn first-btn"
           style={headerButton}
@@ -27,35 +38,32 @@ function Header() {
         >
           Home
         </NavLink>
-        {'|'}
+        {"|"}
         <NavLink
           className="btn btn-primary header-btn"
           style={headerButton}
           activeStyle={activeStyle}
           to="/piano"
         >
-          {' '}
           Piano
         </NavLink>
-        {'|'}
+        {"|"}
         <NavLink
           className="btn btn-primary header-btn"
           style={headerButton}
           activeStyle={activeStyle}
           to="/sounds"
         >
-          {' '}
           Sounds
         </NavLink>
-        {'|'}
+        {"|"}
         <NavLink
           className="btn btn-primary header-btn"
           style={headerButton}
           activeStyle={activeStyle}
-          to="/help-us"
+          to="/podcasts"
         >
-          {' '}
-          Random
+          Podcasts
         </NavLink>
       </nav>
     </>
