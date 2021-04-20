@@ -60,9 +60,9 @@ function Header() {
             className="btn btn-primary header-btn"
             style={headerButton}
             activeStyle={activeStyle}
-            to="/podcasts"
+            to="/interviews"
           >
-            Podcasts
+            Interviews
           </NavLink>
         </div>
       </nav>

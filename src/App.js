@@ -30,7 +30,7 @@ function App() {
         <Route path="/" exact component={HomePage} />
         <Route path="/piano" exact component={PianoPage} />
         <Route path="/sounds" exact component={Sounds} />
-        <Route path="/podcasts" exact component={PodcastPage} />
+        <Route path="/interviews" exact component={PodcastPage} />
         <Redirect from="/about-page" to="/about" />
         <Route component={NotFoundPage} />
       </Switch>

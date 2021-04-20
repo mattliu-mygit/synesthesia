@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import ReactAudioPlayer from "react-audio-player";
-import test1 from "../music/test1.mp3";
-import test2 from "../music/test2.mp3";
-import test3 from "../music/test3.mp3";
+import interview1 from "../interviews/Serena.mp3";
+import interview2 from "../interviews/Nathan.mp3";
+import interview3 from "../interviews/Mira.mp3";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 
-const options = ["test1", "test2", "test3"];
+const options = ["Serena", "Nathan", "Mira"];
 const podcastMap = new Map([
-  [options[0], test1],
-  [options[1], test2],
-  [options[2], test3],
+  [options[0], interview1],
+  [options[1], interview2],
+  [options[2], interview3],
 ]);
 
 const PodcastPage = () => {
@@ -24,7 +24,7 @@ const PodcastPage = () => {
   return (
     <div style={{ padding: "5rem" }}>
       <div style={{ marginBottom: "1rem", fontWeight: "500" }}>
-        Choose a podcast below:
+        Choose an interview below:
       </div>
       <Dropdown
         options={options}
