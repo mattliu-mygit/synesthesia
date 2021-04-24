@@ -22,7 +22,7 @@ const Sounds = () => {
     console.log("music name is ", musicName);
   };
   return (
-    <div style={{ padding: "5rem" }}>
+    <div style={{ padding: "5rem", position: "absolute", zIndex: 100 }}>
       <div style={{ marginBottom: "1rem", fontWeight: "500" }}>
         Choose a music below to play:
       </div>

@@ -25,6 +25,7 @@ function Header() {
           color: "white",
           backgroundColor: "rgba(0, 0, 0, 0.5)",
           width: "100%",
+          zIndex: 100,
         }}
       >
         <div style={{ padding: "0.5rem" }}>
@@ -42,9 +43,9 @@ function Header() {
             className="btn btn-primary header-btn"
             style={headerButton}
             activeStyle={activeStyle}
-            to="/piano"
+            to="/background"
           >
-            Piano
+            Background
           </NavLink>
           {"|"}
           <NavLink
@@ -60,9 +61,27 @@ function Header() {
             className="btn btn-primary header-btn"
             style={headerButton}
             activeStyle={activeStyle}
-            to="/interviews"
+            to="/participants/Mira"
           >
-            Interviews
+            Mira
+          </NavLink>
+          {"|"}
+          <NavLink
+            className="btn btn-primary header-btn"
+            style={headerButton}
+            activeStyle={activeStyle}
+            to="/participants/Nathan"
+          >
+            Nathan
+          </NavLink>
+          {"|"}
+          <NavLink
+            className="btn btn-primary header-btn"
+            style={headerButton}
+            activeStyle={activeStyle}
+            to="/participants/Serena"
+          >
+            Serena
           </NavLink>
         </div>
       </nav>

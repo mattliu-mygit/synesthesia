@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Piano, KeyboardShortcuts, MidiNumbers } from "react-piano";
 import "react-piano/dist/styles.css";
-import AudioPlayer from "../files/AudioPlayer";
+import AudioPlayer from "../../files/AudioPlayer";
 const audioPlayer = AudioPlayer();
 
 const PianoContainer = (props) => {
-  const firstNote = MidiNumbers.fromNote("c3");
-  const lastNote = MidiNumbers.fromNote("f5");
+  const firstNote = MidiNumbers.fromNote("g3");
+  const lastNote = MidiNumbers.fromNote("g4");
   const keyboardShortcuts = KeyboardShortcuts.create({
     firstNote: firstNote,
     lastNote: lastNote,
@@ -20,6 +20,7 @@ const PianoContainer = (props) => {
   return (
     <div>
       <Piano
+        keyboardShortcuts={keyboardShortcuts}
         noteRange={{ first: firstNote, last: lastNote }}
         playNote={(midiNumber) => {
           // Play a given note - see notes below
