@@ -83,6 +83,15 @@ function Header() {
           >
             Serena
           </NavLink>
+          {"|"}
+          <NavLink
+            className="btn btn-primary header-btn"
+            style={headerButton}
+            activeStyle={activeStyle}
+            to="/policy-memo"
+          >
+            Policy Memo
+          </NavLink>
         </div>
       </nav>
     </>

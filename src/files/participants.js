@@ -2,7 +2,23 @@ import interview1 from "../interviews/Serena.mp3";
 import interview2 from "../interviews/Nathan.mp3";
 import interview3 from "../interviews/Mira.mp3";
 
-const miraGHex = [
+const miraGMajorHex = [
+  "#e10202",
+  "#700610",
+  "#ff7300",
+  "#ffd71d",
+  "#f8ff01",
+  "#cd821f",
+  "#d95f1e",
+  "#d96200",
+  "#165600",
+  "#7f3811",
+  "#336bfc",
+  "#9705f1",
+  "#ea00ff",
+];
+
+const miraEMinorHex = [
   "#e10202",
   "#700610",
   "#ff7300",
@@ -20,11 +36,12 @@ const miraGHex = [
 
 export const mira = {
   name: "Mira",
-  gScaleCodes: miraGHex,
+  gMajorScaleCodes: miraGMajorHex,
+  eMinorScaleCodes: miraEMinorHex,
   interview: interview3,
 };
 
-const nathanGHex = [
+const nathanGMajorHex = [
   "#810303",
   "#d2516f",
   "#b49962",
@@ -39,13 +56,29 @@ const nathanGHex = [
   "#53078d",
 ];
 
+const nathanEMinorHex = [
+  "#e10202",
+  "#700610",
+  "#ff7300",
+  "#ffd71d",
+  "#f8ff01",
+  "#cd821f",
+  "#d95f1e",
+  "#165600",
+  "#7f3811",
+  "#336bfc",
+  "#9705f1",
+  "#ea00ff",
+];
+
 export const nathan = {
   name: "Nathan",
-  gScaleCodes: nathanGHex,
+  gMajorScaleCodes: nathanEMinorHex,
+  eMinorScaleCodes: nathanGMajorHex,
   interview: interview2,
 };
 
-const serenaGHex = [
+const serenaGMajorHex = [
   "#7575ff",
   "#c40000",
   "#e06526",
@@ -60,8 +93,24 @@ const serenaGHex = [
   "#a249a4",
 ];
 
+const serenaEMinorHex = [
+  "#008000",
+  "#880015",
+  "#964B00",
+  "#800080",
+  "#ab9ddb",
+  "#ac4a35",
+  "#ff9166",
+  "#00a2e8",
+  "#ffffff",
+  "#ffffff",
+  "#fff200",
+  "#efe5b0",
+];
+
 export const serena = {
   name: "Serena",
-  gScaleCodes: serenaGHex,
+  gMajorScaleCodes: serenaGMajorHex,
+  eMinorScaleCodes: serenaEMinorHex,
   interview: interview1,
 };

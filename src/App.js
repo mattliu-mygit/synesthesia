@@ -9,6 +9,7 @@ import background from "./files/background.gif";
 import Person from "./components/Person";
 import Background from "./components/Background";
 import Menu from "./components/Menu";
+import PolicyMemo from "./components/PolicyMemo";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" exact component={HomePage} />
           <Route path="/sounds" exact component={Sounds} />
           <Route path="/background" exact component={Background} />
+          <Route path="/policy-memo" exact component={PolicyMemo} />
           <Route path="/participants/:participant" children={<Person />} />
           <Redirect from="/about-page" to="/about" />
           <Route component={NotFoundPage} />

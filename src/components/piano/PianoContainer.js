@@ -5,12 +5,15 @@ import AudioPlayer from "../../files/AudioPlayer";
 const audioPlayer = AudioPlayer();
 
 const PianoContainer = (props) => {
-  const firstNote = MidiNumbers.fromNote("g3");
-  const lastNote = MidiNumbers.fromNote("g4");
+  const firstNote = MidiNumbers.fromNote(props.firstKey);
+  const lastNote = MidiNumbers.fromNote(props.lastKey);
   const keyboardShortcuts = KeyboardShortcuts.create({
     firstNote: firstNote,
     lastNote: lastNote,
-    keyboardConfig: KeyboardShortcuts.HOME_ROW,
+    keyboardConfig:
+      props.firstKey === "g3"
+        ? KeyboardShortcuts.QWERTY_ROW
+        : KeyboardShortcuts.BOTTOM_ROW,
   });
 
   useEffect(() => {
