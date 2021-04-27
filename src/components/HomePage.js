@@ -18,7 +18,7 @@ const HomePage = () => {
         borderRadius: "1rem",
       }}
     >
-      <div style={{ fontSize: "4rem" }}>Synesthesia Group 2021</div>
+      <div style={{ fontSize: "4rem" }}>Synesthesia</div>
       <div style={{ fontSize: "2rem" }}>
         Group members: Arielle Summitt, Matthew Liu, Jiayu Shao, Jia Yi Lee
       </div>
