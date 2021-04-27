@@ -47,6 +47,11 @@ const Background = () => {
           rapid flashes of colors, "somewhat like fireworks exploding."
         </p>
         <h3>Theories on Synesthesia Causes</h3>
+        <p>Is it Genetic?</p>
+        <p>
+          It is still not fully understood, but it is thought to be genetic and
+          occurs more in women than men.
+        </p>
         <p>Disinhibited Feedback Theory</p>
         <p>
           According to the disinhibited feedback theory, synesthesia is caused
