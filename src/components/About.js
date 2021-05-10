@@ -1,4 +1,6 @@
 import React from "react";
+import Matt from "../images/Matt.JPG";
+import defaultPfp from "../images/defaultPfp.png";
 
 const About = () => {
   return (
@@ -27,14 +29,61 @@ const About = () => {
         }}
       >
         <h1>About</h1>
-        <h2>Arriele</h2>
+        <h3>Arriele Summitt</h3>
+        <div
+          style={{
+            width: "10rem",
+            height: "10rem",
+            borderRadius: "50%",
+            backgroundImage: `url(${defaultPfp})`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+          }}
+        ></div>
         <p></p>
-        <h2>Jiayu Shao</h2>
+        <h3>Jiayu Shao</h3>
+        <div
+          style={{
+            width: "10rem",
+            height: "10rem",
+            borderRadius: "50%",
+            backgroundImage: `url(${defaultPfp})`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+          }}
+        ></div>
         <p></p>
-        <h2>Jia-Yi </h2>
+        <h3>Jia-Yi Lee</h3>
+        <div
+          style={{
+            width: "10rem",
+            height: "10rem",
+            borderRadius: "50%",
+            backgroundImage: `url(${defaultPfp})`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+          }}
+        ></div>
         <p></p>
-        <h2>Matthew Liu</h2>
-        <p></p>
+        <h3>Matthew Liu</h3>
+        <div
+          style={{
+            width: "10rem",
+            height: "10rem",
+            borderRadius: "50%",
+            backgroundImage: `url(${Matt})`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+          }}
+        ></div>
+        <p>
+          A sophomore at Johns Hopkins University studying Computer Science and
+          Coginitive Science.{" "}
+        </p>
       </div>
     </div>
   );

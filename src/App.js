@@ -8,9 +8,9 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import background from "./files/background.gif";
 import Person from "./components/Person";
 import Background from "./components/Background";
-import Menu from "./components/Menu";
 import PolicyMemo from "./components/PolicyMemo";
 import About from "./components/About";
+import Podcasts from "./components/Podcasts";
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={HomePage} />
           <Route path="/sounds" exact component={Sounds} />
+          <Route path="/podcasts" exact component={Podcasts} />
           <Route path="/about" exact component={About} />
           <Route path="/background" exact component={Background} />
           <Route path="/policy-memo" exact component={PolicyMemo} />

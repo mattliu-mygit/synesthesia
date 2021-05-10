@@ -40,7 +40,7 @@ const PianoContainer = (props) => {
         onPlayNoteInput={(midiNumber, { prevActiveNotes }) => {
           // props.changeBGColor(midiNumber);
         }}
-        width={1000}
+        width={500}
       />
     </div>
   );

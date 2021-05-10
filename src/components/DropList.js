@@ -22,6 +22,7 @@ const DropList = (props) => {
       style={{
         width: "75%",
         paddingTop: "0.5rem",
+        paddingLeft: "14rem",
       }}
     >
       {props.content.map((item) => (

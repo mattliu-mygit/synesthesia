@@ -37,6 +37,10 @@ export const mira = {
   gMajorScaleCodes: miraGMajorHex,
   eMinorScaleCodes: miraEMinorHex,
   interview: interview3,
+  favorite: "Tears in Rain",
+  favoriteHref: "https://youtu.be/t7Dsepl4UYc",
+  favoriteDescription:
+    "“Tears in Rain” is about the movie Blade Runner. I wrote the intro a few years ago and didn’t know what to do with it for a while. In the beginning, I see a lot of dark, muted colors, almost like I'm looking out a window at night while it’s raining. The glissandi in the beginning look like lines of colors snaking their way through a dark atmosphere. When the intro ends and the actual song begins, the colors become much more vibrant. The guitar in the song has a harmonizer on it, and when I listen to it I picture two sets of colors pulsing with the music, mostly purple and blue, but when other chords come in, the colors change and blend together—yellows, reds, oranges, greens, etc.",
 };
 
 const nathanGMajorHex = [
@@ -74,6 +78,10 @@ export const nathan = {
   gMajorScaleCodes: nathanEMinorHex,
   eMinorScaleCodes: nathanGMajorHex,
   interview: interview2,
+  favoriteName: "Ernő Dohnányi - Piano Quintet No. 2 in E-Flat minor Op. 26",
+  favoriteHref: "https://www.youtube.com/watch?v=4ceJgiFWGMM",
+  favoriteDescription:
+    "It feels like a dream world to me, always fluid and moving, and never finishing where you expect to. Dohnányi expertly uses modulation and enharmonics to smoothly move from key to key, in a way that isn't abrupt. I feel like his music is as colorful as dreams are. The first movement starts with a dark gray/black for me, but more or less follows my color chart as it moves through various tonal centers, and ends with the sun coming out in E-flat major (golden). The second movement seems navy blue, which I know disagrees with my chart for A-flat. A-flat is a key that doesn't seem to stay the same for me. The third movement hits about every key possible, but the solo piano entrance after the quartet fugue is definitely a rich brown to me. I won't detail every section, but it ends just like the first movement in E-flat major, with a golden color.",
 };
 
 const serenaGMajorHex = [
@@ -111,4 +119,8 @@ export const serena = {
   gMajorScaleCodes: serenaGMajorHex,
   eMinorScaleCodes: serenaEMinorHex,
   interview: interview1,
+  favoriteName: "Laridsen: Prayer",
+  favoriteHref: "https://www.youtube.com/watch?v=zuEtUy84OmQ",
+  favoriteDescription:
+    "For a piece, I'd say Lauridsen's Prayer. It's in Db major, and with Lauridsen's open ninth that he likes so much, it looks like a warm, bittersweet sunset. In the climax, the high Gbs in the soprano look like the green dot you can sometimes see during a sunrise.",
 };

@@ -138,6 +138,40 @@ const Background = () => {
           involuntary, the participant will be quicker at selecting a color than
           if they needed to actually think and consciously make the association.
         </p>
+        <h3>Citations</h3>
+        <p>
+          Eagleman, D. M., Kagan, A. D., Nelson, S. S., Sagaram, D., &amp;
+          Sarma, A. K. (2007). A standardized test battery for the study of
+          synesthesia. Journal of Neuroscience Methods, 159(1), 139-145.
+          doi:10.1016/j.jneumeth.2006.07.012
+        </p>
+        <p>
+          Ione, A., &amp; Tyler, C. (2004). Neuroscience, history and the ARTS
+          Synesthesia: Is F-SHARP COLORED VIOLET? Journal of the History of the
+          Neurosciences, 13(1), 58-65. doi:10.1080/09647040490885493
+        </p>
+        <p>
+          Leeuwen, Tessa M. van, et al. “The Merit of Synesthesia for
+          Consciousness Research.” Frontiers in Psychology, vol. 6, 2015.
+          Crossref, doi:10.3389/fpsyg.2015.01850.
+        </p>
+        <p>
+          Mroczko-WÄ…sowicz, A., &amp; NikoliÄ‡, D. (2014). Semantic mechanisms
+          may be responsible for developing synesthesia. Frontiers in Human
+          Neuroscience, 8. doi:10.3389/fnhum.2014.00509
+        </p>
+        <p>
+          Ramachandran, V. S., & Hubbard, E. M. (2001). Synaesthesia--a window
+          into perception, thought and language. Journal of Consciousness
+          Studies, 8(12), 3–34.
+        </p>
+        <p>
+          Sacks, O. W. (2007). Tales of music and the brain. London: Picador.
+        </p>
+        <p>
+          Simner, J. (2013). Why are there different types of synesthete?
+          Frontiers in Psychology, 4. doi:10.3389/fpsyg.2013.00558
+        </p>
       </div>
     </div>
   );

@@ -16,13 +16,16 @@ const HomePage = () => {
         backgroundColor: "rgba(255, 255, 255, 0.35)",
         padding: "2%",
         borderRadius: "1rem",
+        overflow: "auto",
       }}
     >
-      <div style={{ fontSize: "4rem" }}>Synesthesia</div>
-      <div style={{ fontSize: "2rem" }}>
+      <div style={{ fontSize: "3rem" }}>
+        Insight into the Intricacies of Chromesthesia
+      </div>
+      <div style={{ fontSize: "1.5rem" }}>
         Group members: Arielle Summitt, Matthew Liu, Jiayu Shao, Jia Yi Lee
       </div>
-      <div style={{ fontSize: "1rem", marginTop: "2rem" }}>
+      <div style={{ fontSize: "1rem", marginTop: "1rem" }}>
         <p>
           Synesthesia describes a rare neurological phenomenon in which a
           specific stimulus, which may be sensory, like a sound or flavor, or
@@ -45,16 +48,17 @@ const HomePage = () => {
           rapid flashes of colors, "somewhat like fireworks exploding."
         </p>
       </div>
-      <div style={{ fontSize: "1rem", marginTop: "2rem", color: "white" }}>
-        Read more <Link to="/background">here.</Link>
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        <div style={{ fontSize: "1rem", marginTop: "0rem", color: "white" }}>
+          Read <b>more</b> <Link to="/background">here</Link> or check out our{" "}
+          <b>5-part podcast</b> <Link to="/background">here</Link> or...
+        </div>
       </div>
-      <div style={{ fontSize: "1rem", marginTop: "2rem", color: "white" }}>
-        Or
+      <div style={{ fontSize: "1rem", marginTop: "0rem" }}>
+        <b>Explore</b> the colors our interviewees would see when playing a
+        short piece.
       </div>
-      <div style={{ fontSize: "1rem", marginTop: "2rem" }}>
-        Check out the participants we interviewed below!
-      </div>
-      <div style={{ fontSize: "1.75rem" }}>
+      <div style={{ fontSize: "1.75rem", display: "flex" }}>
         <div style={{}}>
           <Link className="btn btn-primary header-btn" to="/participants/Mira">
             <a href={window.location.href + "/participants/Mira"}>
@@ -72,7 +76,8 @@ const HomePage = () => {
             </a>
           </Link>
         </div>
-        <div>
+
+        <div style={{ marginLeft: "2rem" }}>
           <Link
             className="btn btn-primary header-btn"
             to="/participants/Nathan"
@@ -92,7 +97,7 @@ const HomePage = () => {
             </a>
           </Link>
         </div>
-        <div style={{}}>
+        <div style={{ marginLeft: "2rem" }}>
           <Link
             className="btn btn-primary header-btn"
             to="/participants/Serena"

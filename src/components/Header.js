@@ -47,9 +47,9 @@ function Header() {
           top: "0rem",
           color: "white",
           backgroundColor: "rgba(0, 0, 0, 0.5)",
-          width: "100%",
+          width: "99%",
           zIndex: 100,
-          padding: "0.5rem",
+          padding: "0.5%",
         }}
         onMouseLeave={() => {
           if (window.innerWidth < 840) {
@@ -83,6 +83,18 @@ function Header() {
               }}
             >
               Background
+            </NavLink>
+            {"|"}
+            <NavLink
+              className="btn btn-primary header-btn"
+              style={headerButton}
+              activeStyle={activeStyle}
+              to="/podcasts"
+              onMouseEnter={() => {
+                setActiveDropList(0);
+              }}
+            >
+              Podcasts
             </NavLink>
             {"|"}
             <NavLink
@@ -129,7 +141,7 @@ function Header() {
             }}
             style={{
               paddingBottom: "0.1rem",
-              backgroundColor: "rgba(7, 66, 122, 0.5)",
+              // backgroundColor: "rgba(7, 66, 122, 0.5)",
               width: "100%",
             }}
           >
