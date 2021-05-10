@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import stick from "../images/stick.png";
+import img from "../images/chroma.jpg";
 import { mira, nathan, serena } from "../files/participants";
 
 const HomePage = () => {
@@ -22,10 +22,25 @@ const HomePage = () => {
       <div style={{ fontSize: "3rem" }}>
         Insight into the Intricacies of Chromesthesia
       </div>
+
       <div style={{ fontSize: "1.5rem" }}>
         Group members: Arielle Summitt, Matthew Liu, Jiayu Shao, Jia Yi Lee
       </div>
-      <div style={{ fontSize: "1rem", marginTop: "1rem" }}>
+      <div
+        style={{ width: "100%", justifyContent: "center", marginTop: "1.5rem" }}
+      >
+        <img
+          src={img}
+          alt="img"
+          style={{
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+            width: "50%",
+          }}
+        ></img>
+      </div>
+      <div style={{ fontSize: "1rem", marginTop: "1.5rem" }}>
         <p>
           Synesthesia describes a rare neurological phenomenon in which a
           specific stimulus, which may be sensory, like a sound or flavor, or
@@ -48,7 +63,7 @@ const HomePage = () => {
           rapid flashes of colors, "somewhat like fireworks exploding."
         </p>
       </div>
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div style={{ display: "flex", flexDirection: "row", marginTop: "2rem" }}>
         <div style={{ fontSize: "1rem", marginTop: "0rem", color: "white" }}>
           Read <b>more</b> <Link to="/background">here</Link> or check out our{" "}
           <b>5-part podcast</b> <Link to="/background">here</Link> or...
