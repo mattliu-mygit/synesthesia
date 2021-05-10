@@ -10,6 +10,7 @@ import Person from "./components/Person";
 import Background from "./components/Background";
 import Menu from "./components/Menu";
 import PolicyMemo from "./components/PolicyMemo";
+import About from "./components/About";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={HomePage} />
           <Route path="/sounds" exact component={Sounds} />
+          <Route path="/about" exact component={About} />
           <Route path="/background" exact component={Background} />
           <Route path="/policy-memo" exact component={PolicyMemo} />
           <Route path="/participants/:participant" children={<Person />} />

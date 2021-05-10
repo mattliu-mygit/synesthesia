@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import PianoContainer from "./piano/PianoContainer";
 import { mira, nathan, serena } from "../files/participants";
 import ReactAudioPlayer from "react-audio-player";
+import bubble from "../images/bubble.png";
 
 const Person = () => {
   let { participant } = useParams();
@@ -41,26 +42,106 @@ const Person = () => {
     }
   };
 
+  const returnGridElements = () => {
+    const width = window.innerWidth / 8;
+    const boxshadowStyle = "0px 0px 50px 50px " + backgroundColor;
+    const opacity = 0.3;
+    const row = (
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        <div
+          style={{
+            backgroundColor: backgroundColor,
+            borderRadius: "50%",
+            height: width,
+            width: width,
+            opacity: opacity,
+            boxShadow: boxshadowStyle,
+            margin: window.innerWidth / 32,
+          }}
+        ></div>
+        <div
+          style={{
+            backgroundColor: backgroundColor,
+            borderRadius: "50%",
+            height: width,
+            width: width,
+            opacity: opacity,
+            boxShadow: boxshadowStyle,
+            margin: window.innerWidth / 32,
+          }}
+        ></div>
+        <div
+          style={{
+            backgroundColor: backgroundColor,
+            borderRadius: "50%",
+            height: width,
+            width: width,
+            opacity: opacity,
+            boxShadow: boxshadowStyle,
+            margin: window.innerWidth / 32,
+          }}
+        ></div>
+        <div
+          style={{
+            backgroundColor: backgroundColor,
+            borderRadius: "50%",
+            height: width,
+            width: width,
+            opacity: opacity,
+            boxShadow: boxshadowStyle,
+            margin: window.innerWidth / 32,
+          }}
+        ></div>
+        <div
+          style={{
+            backgroundColor: backgroundColor,
+            borderRadius: "50%",
+            height: width,
+            width: width,
+            opacity: opacity,
+            boxShadow: boxshadowStyle,
+            margin: window.innerWidth / 32,
+          }}
+        ></div>
+      </div>
+    );
+    const out = [];
+    let height = 0;
+    while (height < window.innerHeight) {
+      out.push(row);
+      height += width * 2;
+    }
+    return out;
+  };
+
   return (
     <>
       <div
         style={{
           position: "absolute",
           top: 0,
-          backgroundColor: backgroundColor,
-          height: "100%",
-          width: "100%",
-          opacity: 0.6,
           zIndex: 99,
+          // backgroundImage:
+          //   backgroundColor !== "transparent" ? `url(${bubble})` : "",
+          // backgroundColor: "red",
+          // backgroundRepeat: "space",
+          width: window.innerWidth,
+          height: window.innerHeight,
+          // opacity: 0.5,
+          display: "flex",
+          flexDirection: "column",
+          flexWrap: "wrap",
         }}
-      ></div>
+      >
+        {returnGridElements()}
+      </div>
       <div
         style={{
           position: "absolute",
           top: 0,
           height: "100%",
           width: "100%",
-          overflow: "scroll",
+          overflow: "auto",
           zIndex: 100,
         }}
       >

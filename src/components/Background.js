@@ -14,13 +14,16 @@ const Background = () => {
       <div
         style={{
           margin: "5%",
+          // marginTop: "2.5%",
           position: "absolute",
           width: "86%",
-          height: "78%",
+          height: "80%",
           zIndex: 100,
           backgroundColor: "rgba(255, 255, 255, 0.35)",
           padding: "2%",
+          paddingTop: "0%",
           borderRadius: "1rem",
+          overflow: "auto",
         }}
       >
         <h1>Background On Chromesthesia</h1>
@@ -45,6 +48,45 @@ const Background = () => {
           tended to evoke a lighter color value, while lower octaves evoked a
           darker color value. And rapid major chord tone sequences elicited
           rapid flashes of colors, "somewhat like fireworks exploding."
+        </p>
+        <h3>Types of Synesthetes</h3>
+        <h4>Higher vs. Lower Synesthetes</h4>
+        <p>
+          The distinction between higher and lower synaesthetes was first
+          proposed by Ramachandran and Hubbard in 2001, based on evidence of
+          cross-activation mechanisms operating at different times and in
+          different locations in the brain. <b>Lower synesthetes</b> process the
+          inducing information and generate the concurrent at an early stage in
+          cortical processing, specifically in the fusiform areas that deal with
+          form and colour perception. In contrast, so-called{" "}
+          <b>higher synesthetes</b> utilize later areas that manage the
+          conceptual aspects of color.
+        </p>
+        <h4>Associator and Projector Synesthetes</h4>
+        <p>
+          For <b>associator synesthetes,</b> the synesthetic effects occurring
+          concurrent to the stimulus occurs within “their mind’s eye,"" so to
+          speak, meaning that it is internally-perceived by the synesthete.
+          <b> Projector synesthetes</b> experience the concurrent outside of
+          their mind as a physical sensation. In other words, they “project” the
+          concurrent into external space, hence the name.
+        </p>
+        <p>
+          It was thought for some time that because projector synesthetes
+          physically experienced the concurrent, this meant they processed
+          information at a lower stage involved in the physical elements of a
+          stimulus, automatically making them lower synesthetes. Along the same
+          vein, associator synesthetes mentally experience the concurrent, so
+          they must process information at a higher stage of cortical processing
+          involving the conceptual aspects of a stimulus, making them higher
+          synesthetes. However, this pairing of projector with lower and
+          associator with higher has not been supported by research. The crucial
+          distinction between associators and projectors lies in the experience
+          of the concurrent, while that between higher and lower synaesthetes is
+          in the nature of the inducer. In fact, some studies have shown that
+          these two dimensions of synesthesia are orthogonal to one another,
+          meaning that you could have any combination of projector-lower,
+          projector-higher, associator-lower, or associator-higher.
         </p>
         <h3>Theories on Synesthesia Causes</h3>
         <p>Is it Genetic?</p>
