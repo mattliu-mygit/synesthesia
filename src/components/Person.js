@@ -49,9 +49,9 @@ const Person = () => {
   const returnGridElements = () => {
     const width = window.innerWidth / 8;
     const boxshadowStyle = "0px 0px 50px 50px " + backgroundColor;
-    const opacity = 0.3;
+    const opacity = 0.5;
     const row = (
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div style={{ display: "flex", flexDirection: "row", flexGrow: "1" }}>
         <div
           style={{
             backgroundColor: backgroundColor,
@@ -61,6 +61,7 @@ const Person = () => {
             opacity: opacity,
             boxShadow: boxshadowStyle,
             margin: window.innerWidth / 32,
+            flexGrow: "1",
           }}
         ></div>
         <div
@@ -72,6 +73,7 @@ const Person = () => {
             opacity: opacity,
             boxShadow: boxshadowStyle,
             margin: window.innerWidth / 32,
+            flexGrow: "1",
           }}
         ></div>
         <div
@@ -83,6 +85,7 @@ const Person = () => {
             opacity: opacity,
             boxShadow: boxshadowStyle,
             margin: window.innerWidth / 32,
+            flexGrow: "1",
           }}
         ></div>
         <div
@@ -94,6 +97,7 @@ const Person = () => {
             opacity: opacity,
             boxShadow: boxshadowStyle,
             margin: window.innerWidth / 32,
+            flexGrow: "1",
           }}
         ></div>
         <div
@@ -105,6 +109,7 @@ const Person = () => {
             opacity: opacity,
             boxShadow: boxshadowStyle,
             margin: window.innerWidth / 32,
+            flexGrow: "1",
           }}
         ></div>
       </div>

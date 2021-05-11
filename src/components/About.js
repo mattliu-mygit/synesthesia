@@ -1,5 +1,6 @@
 import React from "react";
 import Matt from "../images/Matt.JPG";
+import Jiayi from "../images/Jiayi.jpg";
 import defaultPfp from "../images/defaultPfp.png";
 
 const About = () => {
@@ -11,12 +12,12 @@ const About = () => {
         height: "100%",
         width: "100%",
         zIndex: 100,
+        justifyContent: "center",
       }}
     >
       <div
         style={{
           margin: "5%",
-          // marginTop: "2.5%",
           position: "absolute",
           width: "86%",
           height: "80%",
@@ -29,61 +30,146 @@ const About = () => {
         }}
       >
         <h1>About</h1>
-        <h3>Arriele Summitt</h3>
         <div
           style={{
-            width: "10rem",
-            height: "10rem",
-            borderRadius: "50%",
-            backgroundImage: `url(${defaultPfp})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+            width: "75%",
           }}
-        ></div>
-        <p></p>
-        <h3>Jiayu Shao</h3>
+        >
+          <h3
+            style={{
+              width: "100%",
+              textAlign: "center",
+            }}
+          >
+            Arriele Summitt
+          </h3>
+          <div
+            style={{
+              width: "15rem",
+              height: "15rem",
+              borderRadius: "50%",
+              backgroundImage: `url(${defaultPfp})`,
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              display: "block",
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          ></div>
+          <p>asdfsdafd</p>
+        </div>
         <div
           style={{
-            width: "10rem",
-            height: "10rem",
-            borderRadius: "50%",
-            backgroundImage: `url(${defaultPfp})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+            width: "75%",
           }}
-        ></div>
-        <p></p>
-        <h3>Jia-Yi Lee</h3>
+        >
+          <h3
+            style={{
+              width: "100%",
+              textAlign: "center",
+            }}
+          >
+            Jiayu Shao
+          </h3>
+          <div
+            style={{
+              width: "15rem",
+              height: "15rem",
+              borderRadius: "50%",
+              backgroundImage: `url(${defaultPfp})`,
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              display: "block",
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          ></div>
+          <p></p>
+        </div>
+
         <div
           style={{
-            width: "10rem",
-            height: "10rem",
-            borderRadius: "50%",
-            backgroundImage: `url(${defaultPfp})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+            width: "75%",
           }}
-        ></div>
-        <p></p>
-        <h3>Matthew Liu</h3>
+        >
+          <h3
+            style={{
+              width: "100%",
+              textAlign: "center",
+            }}
+          >
+            Jia-Yi Lee
+          </h3>
+          <div
+            style={{
+              width: "15rem",
+              height: "15rem",
+              borderRadius: "50%",
+              backgroundImage: `url(${Jiayi})`,
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              display: "block",
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          ></div>
+          <p>
+            Jia Yi Lee is a Singaporean composer whose music explores
+            combinations of instrumental timbre, colour and gesture. She plays
+            the trumpet and is also passionate about music education. Jia Yi is
+            currently pursuing her Master of Music in Composition at Peabody
+            Conservatory of The Johns Hopkins University, where she also serves
+            as a Graduate Assistant in Music Theory. In her free time, she likes
+            to travel as much as she can and enjoys a good cup of coffee.
+          </p>
+        </div>
         <div
           style={{
-            width: "10rem",
-            height: "10rem",
-            borderRadius: "50%",
-            backgroundImage: `url(${Matt})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+            width: "75%",
           }}
-        ></div>
-        <p>
-          A sophomore at Johns Hopkins University studying Computer Science and
-          Coginitive Science.{" "}
-        </p>
+        >
+          <h3
+            style={{
+              width: "100%",
+              textAlign: "center",
+            }}
+          >
+            Matthew Liu
+          </h3>
+          <div
+            style={{
+              width: "15rem",
+              height: "15rem",
+              borderRadius: "50%",
+              backgroundImage: `url(${Matt})`,
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              display: "block",
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          ></div>
+          <p>
+            A sophomore at Johns Hopkins University studying Computer Science
+            and Coginitive Science.{" "}
+          </p>
+        </div>
       </div>
     </div>
   );
