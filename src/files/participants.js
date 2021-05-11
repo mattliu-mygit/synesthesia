@@ -120,7 +120,7 @@ export const serena = {
   gMajorScaleCodes: serenaGMajorHex,
   eMinorScaleCodes: serenaEMinorHex,
   interview: interview1,
-  favorite: "Tears in Rain",
+  favoriteName: "Tears in Rain",
   favoriteHref: "https://youtu.be/t7Dsepl4UYc",
   favoriteDescription:
     "“Tears in Rain” is about the movie Blade Runner. I wrote the intro a few years ago and didn’t know what to do with it for a while. In the beginning, I see a lot of dark, muted colors, almost like I'm looking out a window at night while it’s raining. The glissandi in the beginning look like lines of colors snaking their way through a dark atmosphere. When the intro ends and the actual song begins, the colors become much more vibrant. The guitar in the song has a harmonizer on it, and when I listen to it I picture two sets of colors pulsing with the music, mostly purple and blue, but when other chords come in, the colors change and blend together—yellows, reds, oranges, greens, etc.",

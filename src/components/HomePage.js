@@ -90,13 +90,13 @@ const HomePage = () => {
           <div style={{}}>
             <Link
               className="btn btn-primary header-btn"
-              to="/participants/Mira"
+              to="/participants/Serena"
             >
-              <a href={window.location.href + "/participants/Mira"}>
-                {mira.name.split("").map((letter, index) => (
+              <a href={window.location.href + "/participants/Serena"}>
+                {serena.name.split("").map((letter, index) => (
                   <div
                     style={{
-                      color: mira.gMajorScaleCodes[index],
+                      color: serena.gMajorScaleCodes[index],
                       display: "inline-block",
                       textShadow: "0px 0px 0.5rem rgba(255, 255, 255, 1)",
                     }}
@@ -131,13 +131,13 @@ const HomePage = () => {
           <div style={{ marginLeft: "2rem" }}>
             <Link
               className="btn btn-primary header-btn"
-              to="/participants/Serena"
+              to="/participants/Mira"
             >
-              <a href={window.location.href + "/participants/Serena"}>
-                {serena.name.split("").map((letter, index) => (
+              <a href={window.location.href + "/participants/Mira"}>
+                {mira.name.split("").map((letter, index) => (
                   <div
                     style={{
-                      color: serena.gMajorScaleCodes[index],
+                      color: mira.gMajorScaleCodes[index],
                       display: "inline-block",
                       textShadow: "0px 0px 0.5rem rgba(255, 255, 255, 1)",
                     }}

@@ -21,16 +21,16 @@ function Header() {
   const [headerActive, setHeaderActive] = useState(false);
   const intervieweeList = [
     {
+      name: "Serena",
+      path: "/participants/Serena",
+    },
+    {
       name: "Mira",
       path: "/participants/Mira",
     },
     {
       name: "Nathan",
       path: "/participants/Nathan",
-    },
-    {
-      name: "Serena",
-      path: "/participants/Serena",
     },
   ];
 
@@ -101,7 +101,7 @@ function Header() {
               className="btn btn-primary header-btn"
               style={headerButton}
               activeStyle={activeStyle}
-              to="/participants/Mira"
+              to="/participants/Serena"
               onMouseEnter={() => {
                 setActiveDropList(1);
               }}
