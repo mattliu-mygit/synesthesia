@@ -1,6 +1,7 @@
 import React from "react";
 import Matt from "../images/Matt.JPG";
 import Jiayi from "../images/Jiayi.jpg";
+import Jiayu from "../images/Jiayu.png";
 import defaultPfp from "../images/defaultPfp.png";
 
 const About = () => {
@@ -13,6 +14,7 @@ const About = () => {
         width: "100%",
         zIndex: 100,
         justifyContent: "center",
+        textAlign: "center",
       }}
     >
       <div
@@ -83,7 +85,7 @@ const About = () => {
               width: "15rem",
               height: "15rem",
               borderRadius: "50%",
-              backgroundImage: `url(${defaultPfp})`,
+              backgroundImage: `url(${Jiayu})`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -92,7 +94,10 @@ const About = () => {
               marginRight: "auto",
             }}
           ></div>
-          <p></p>
+          <p>
+            Currently a Senior Neuroscience major at Johns Hopkins, likes
+            animals and music. Particularly likes music with animals.
+          </p>
         </div>
 
         <div
@@ -167,7 +172,9 @@ const About = () => {
           ></div>
           <p>
             A sophomore at Johns Hopkins University studying Computer Science
-            and Coginitive Science.{" "}
+            and Coginitive Science. Interested in the psychology of human
+            cognition as well as passionate about designing solutions to
+            problems with code.
           </p>
         </div>
       </div>
