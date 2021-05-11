@@ -31,7 +31,18 @@ const Podcasts = () => {
     setMusic(musicMap.get(selected.value));
   };
   return (
-    <div style={{ padding: "5rem", position: "absolute", zIndex: 100 }}>
+    <div
+      style={{
+        position: "absolute",
+        zIndex: 100,
+        justifyContent: "center",
+        width: "100%",
+        height: "100%",
+        display: "flex",
+        alignItems: "center",
+        flexDirection: "column",
+      }}
+    >
       <div style={{ marginBottom: "1rem", fontWeight: "500" }}>
         Check out a podcast!
       </div>

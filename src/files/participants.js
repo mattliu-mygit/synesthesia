@@ -1,6 +1,6 @@
-import interview1 from "../interviews/Serena.mp3";
-import interview2 from "../interviews/Nathan.mp3";
-import interview3 from "../interviews/Mira.mp3";
+import interview1 from "./podcast 2.mp3";
+import interview2 from "./podcast 3.mp3";
+import interview3 from "./podcast 2.mp3";
 
 const miraGMajorHex = [
   "#ec62fe",
