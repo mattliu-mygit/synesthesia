@@ -33,16 +33,16 @@ const Person = () => {
   }, [participant]);
 
   const changeBGMajorColor = (midiNumber) => {
-    if (midiNumber - 55 < gMajorColors.length) {
-      console.log("color is ", gMajorColors[midiNumber - 55]);
-      setBackgroundColor(gMajorColors[midiNumber - 55]);
+    if (midiNumber - 48 < gMajorColors.length) {
+      console.log("color is ", gMajorColors[midiNumber - 48]);
+      setBackgroundColor(gMajorColors[midiNumber - 48]);
     }
   };
 
   const changeBGMinorColor = (midiNumber) => {
-    if (midiNumber - 52 < eMinorColors.length) {
-      console.log("color is ", eMinorColors[midiNumber - 52]);
-      setBackgroundColor(eMinorColors[midiNumber - 52]);
+    if (midiNumber - 36 < eMinorColors.length) {
+      console.log("color is ", eMinorColors[midiNumber - 36]);
+      setBackgroundColor(eMinorColors[midiNumber - 36]);
     }
   };
 
@@ -165,8 +165,8 @@ const Person = () => {
             <div>
               Minor
               <PianoContainer
-                firstKey={"e3"}
-                lastKey={"e4"}
+                firstKey={"c2"}
+                lastKey={"b2"}
                 person={participant}
                 changeBGColor={changeBGMinorColor}
                 setBackgroundColor={setBackgroundColor}
@@ -176,18 +176,18 @@ const Person = () => {
               >
                 {eMinorColors.map((color, index) => {
                   if (
-                    index === 2 ||
-                    index === 4 ||
+                    index === 1 ||
+                    index === 3 ||
                     index === 6 ||
-                    index === 9 ||
-                    index === 11
+                    index === 8 ||
+                    index === 10
                   ) {
                     return (
                       <div
                         style={{
-                          width: 75 / 2,
+                          width: 90 / 2,
                           position: "absolute",
-                          left: (index * 73 + 50) / 2,
+                          left: (index * 84) / 2,
                           backgroundColor: color,
                           height: "65%",
                           top: "0rem",
@@ -198,7 +198,7 @@ const Person = () => {
                     return (
                       <div
                         style={{
-                          width: 125 / 2,
+                          width: 142.5 / 2,
                           backgroundColor: color,
                           height: "100%",
                           display: "inline-block",
@@ -209,11 +209,11 @@ const Person = () => {
                 })}
               </div>
             </div>
-            <div style={{ marginLeft: "4rem" }}>
+            <div style={{ marginLeft: "0rem" }}>
               Major
               <PianoContainer
-                firstKey={"g3"}
-                lastKey={"g4"}
+                firstKey={"c3"}
+                lastKey={"b3"}
                 person={participant}
                 changeBGColor={changeBGMajorColor}
                 setBackgroundColor={setBackgroundColor}
@@ -227,14 +227,14 @@ const Person = () => {
                     index === 3 ||
                     index === 6 ||
                     index === 8 ||
-                    index === 11
+                    index === 10
                   ) {
                     return (
                       <div
                         style={{
-                          width: 75 / 2,
+                          width: 90 / 2,
                           position: "absolute",
-                          left: (index * 72 + 20) / 2,
+                          left: (index * 84) / 2,
                           backgroundColor: color,
                           height: "65%",
                           top: "0rem",
@@ -245,7 +245,7 @@ const Person = () => {
                     return (
                       <div
                         style={{
-                          width: 125 / 2,
+                          width: 142.5 / 2,
                           backgroundColor: color,
                           height: "100%",
                           display: "inline-block",

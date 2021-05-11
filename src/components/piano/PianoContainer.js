@@ -11,7 +11,7 @@ const PianoContainer = (props) => {
     firstNote: firstNote,
     lastNote: lastNote,
     keyboardConfig:
-      props.firstKey === "g3"
+      props.firstKey === "c2"
         ? KeyboardShortcuts.QWERTY_ROW
         : KeyboardShortcuts.BOTTOM_ROW,
   });

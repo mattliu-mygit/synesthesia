@@ -3,6 +3,11 @@ import interview2 from "../interviews/Nathan.mp3";
 import interview3 from "../interviews/Mira.mp3";
 
 const miraGMajorHex = [
+  "#ec62fe",
+  "#e8612c",
+  "#764b1a",
+  "#dab027",
+  "#feff5d",
   "#cd0f0f",
   "#91a72d",
   "#5bff3e",
@@ -10,11 +15,6 @@ const miraGMajorHex = [
   "#4ad8fe",
   "#00954b",
   "#3742d8",
-  "#ec62fe",
-  "#e8612c",
-  "#764b1a",
-  "#dab027",
-  "#feff5d",
 ];
 
 const miraEMinorHex = [
@@ -37,10 +37,10 @@ export const mira = {
   gMajorScaleCodes: miraGMajorHex,
   eMinorScaleCodes: miraEMinorHex,
   interview: interview3,
-  favorite: "Tears in Rain",
-  favoriteHref: "https://youtu.be/t7Dsepl4UYc",
+  favoriteName: "Laridsen: Prayer",
+  favoriteHref: "https://www.youtube.com/watch?v=zuEtUy84OmQ",
   favoriteDescription:
-    "“Tears in Rain” is about the movie Blade Runner. I wrote the intro a few years ago and didn’t know what to do with it for a while. In the beginning, I see a lot of dark, muted colors, almost like I'm looking out a window at night while it’s raining. The glissandi in the beginning look like lines of colors snaking their way through a dark atmosphere. When the intro ends and the actual song begins, the colors become much more vibrant. The guitar in the song has a harmonizer on it, and when I listen to it I picture two sets of colors pulsing with the music, mostly purple and blue, but when other chords come in, the colors change and blend together—yellows, reds, oranges, greens, etc.",
+    "For a piece, I'd say Lauridsen's Prayer. It's in Db major, and with Lauridsen's open ninth that he likes so much, it looks like a warm, bittersweet sunset. In the climax, the high Gbs in the soprano look like the green dot you can sometimes see during a sunrise.",
 };
 
 const nathanGMajorHex = [
@@ -85,33 +85,34 @@ export const nathan = {
 };
 
 const serenaGMajorHex = [
-  "#7575ff",
+  "#ffffff",
+  "#ffcb0e",
+  "#ffd84d",
+  "#11421f",
+  "#53ad3f",
+  "#880015",
+  "#924934",
+  "#a555af",
   "#c40000",
   "#e06526",
   "#0080ff",
   "#00a2e8",
-  "#ffffff",
-  "#ffcb0e",
-  "#ffd84d",
-  "#41628f",
-  "#83adcf",
-  "#880015",
-  "#a249a4",
 ];
 
 const serenaEMinorHex = [
+  "#ffffff",
+  "#ffffff",
+  "#ffcb0e",
+  "#fff200",
   "#008000",
   "#880015",
-  "#964B00",
+  "#a86035",
   "#800080",
   "#ab9ddb",
-  "#ac4a35",
+  "#ec4a35",
   "#ff9166",
-  "#00a2e8",
-  "#ffffff",
-  "#ffffff",
-  "#fff200",
-  "#efe5b0",
+  "#0080ff",
+  // "#00a2e8",
 ];
 
 export const serena = {
@@ -119,8 +120,8 @@ export const serena = {
   gMajorScaleCodes: serenaGMajorHex,
   eMinorScaleCodes: serenaEMinorHex,
   interview: interview1,
-  favoriteName: "Laridsen: Prayer",
-  favoriteHref: "https://www.youtube.com/watch?v=zuEtUy84OmQ",
+  favorite: "Tears in Rain",
+  favoriteHref: "https://youtu.be/t7Dsepl4UYc",
   favoriteDescription:
-    "For a piece, I'd say Lauridsen's Prayer. It's in Db major, and with Lauridsen's open ninth that he likes so much, it looks like a warm, bittersweet sunset. In the climax, the high Gbs in the soprano look like the green dot you can sometimes see during a sunrise.",
+    "“Tears in Rain” is about the movie Blade Runner. I wrote the intro a few years ago and didn’t know what to do with it for a while. In the beginning, I see a lot of dark, muted colors, almost like I'm looking out a window at night while it’s raining. The glissandi in the beginning look like lines of colors snaking their way through a dark atmosphere. When the intro ends and the actual song begins, the colors become much more vibrant. The guitar in the song has a harmonizer on it, and when I listen to it I picture two sets of colors pulsing with the music, mostly purple and blue, but when other chords come in, the colors change and blend together—yellows, reds, oranges, greens, etc.",
 };
