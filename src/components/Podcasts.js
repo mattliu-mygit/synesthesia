@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import ReactAudioPlayer from "react-audio-player";
-import test1 from "../music/test1.mp3";
-import test2 from "../music/test2.mp3";
-import test3 from "../music/test3.mp3";
+import podcast2 from "../files/podcast 2.mp3";
+import podcast3 from "../files/podcast 3.mp3";
+import podcast4 from "../files/podcast 2.mp3";
+import podcast5 from "../files/podcast 5.mp3";
 import initial from "../files/podcast 1.mp3";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
@@ -16,10 +17,10 @@ const options = [
 ];
 const musicMap = new Map([
   [options[0], initial],
-  [options[1], test1],
-  [options[2], test2],
-  [options[3], test3],
-  [options[4], test3],
+  [options[1], podcast2],
+  [options[2], podcast3],
+  [options[3], podcast4],
+  [options[4], podcast5],
 ]);
 
 const Podcasts = () => {
