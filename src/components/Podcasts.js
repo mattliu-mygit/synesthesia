@@ -10,9 +10,9 @@ import "react-dropdown/style.css";
 
 const options = [
   "Initial Discussion on Synesthesia",
-  "Mira",
-  "Nathan",
   "Serena",
+  "Nathan",
+  "Mira",
   "Ending Remarks",
 ];
 const musicMap = new Map([
