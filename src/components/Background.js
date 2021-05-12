@@ -27,7 +27,7 @@ const Background = () => {
         }}
       >
         <h1>Background On Chromesthesia</h1>
-        <h3>General Information</h3>
+        <h2>General Information</h2>
         <p>
           Synesthesia describes a rare neurological phenomenon in which a
           specific stimulus, which may be sensory, like a sound or flavor, or
@@ -49,7 +49,7 @@ const Background = () => {
           darker color value. And rapid major chord tone sequences elicited
           rapid flashes of colors, "somewhat like fireworks exploding."
         </p>
-        <h3>Types of Synesthetes</h3>
+        <h2>Types of Synesthetes</h2>
         <h4>Higher vs. Lower Synesthetes</h4>
         <p>
           The distinction between higher and lower synaesthetes was first
@@ -88,13 +88,13 @@ const Background = () => {
           meaning that you could have any combination of projector-lower,
           projector-higher, associator-lower, or associator-higher.
         </p>
-        <h3>Theories on Synesthesia Causes</h3>
-        <p>Is it Genetic?</p>
+        <h2>Theories on Synesthesia Causes</h2>
+        <b>Is it Genetic?</b>
         <p>
           It is still not fully understood, but it is thought to be genetic and
           occurs more in women than men.
         </p>
-        <p>Disinhibited Feedback Theory</p>
+        <b>Disinhibited Feedback Theory</b>
         <p>
           According to the disinhibited feedback theory, synesthesia is caused
           by feedback signals sent from higher-order associative regions to
@@ -104,7 +104,7 @@ const Background = () => {
           grapheme area (but not color areas) by a black grapheme. This is the
           most popular theory.
         </p>
-        <p>Cross Activation Feedback Theory</p>
+        <b>Cross Activation Feedback Theory</b>
         <p>
           The cross-activation theory differs from the disinhibited feedback
           theory in proposing that activity in the brain regions that are
@@ -116,7 +116,7 @@ const Background = () => {
           of an intermediate processing step implies that parietal cortex is not
           crucial for synesthetic experience.
         </p>
-        <p>Reentrant Feedback Theory</p>
+        <b>Reentrant Feedback Theory</b>
         <p>
           A similar proposal to the cross-activation model is the re-entrant
           processing model. In addition to “cross-talk” between relevant brain
@@ -124,7 +124,7 @@ const Background = () => {
           feedback from higher-level areas (such as the anterior inferior
           temporal lobe) that represent the concept or meaning of the inducer.
         </p>
-        <h3>Battery Testing for Synesthesia</h3>
+        <h2>Battery Testing for Synesthesia</h2>
         <p>
           Only recently has a more standardized battery of tests for synesthesia
           been developed, and these are only for the most common types--
@@ -138,7 +138,7 @@ const Background = () => {
           involuntary, the participant will be quicker at selecting a color than
           if they needed to actually think and consciously make the association.
         </p>
-        <h3>Citations</h3>
+        <h2>Citations</h2>
         <p>
           Eagleman, D. M., Kagan, A. D., Nelson, S. S., Sagaram, D., &amp;
           Sarma, A. K. (2007). A standardized test battery for the study of

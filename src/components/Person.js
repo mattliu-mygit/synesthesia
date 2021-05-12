@@ -152,6 +152,7 @@ const Person = () => {
           width: "100%",
           overflow: "auto",
           zIndex: 100,
+          fontSize: "1.25rem",
         }}
       >
         <div
@@ -271,7 +272,10 @@ const Person = () => {
             <b>Experience with their favorite piece:</b>
           </div>
 
-          <a style={{ color: "white" }} href={person.favoriteHref}>
+          <a
+            style={{ color: "white", fontWeight: "400" }}
+            href={person.favoriteHref}
+          >
             {person.favoriteName}
           </a>
           <p>{person.favoriteDescription}</p>
