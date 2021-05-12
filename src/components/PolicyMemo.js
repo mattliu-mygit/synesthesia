@@ -33,28 +33,30 @@ const PolicyMemo = () => {
             Current research on synesthesia has largely focused on the creation
             of a standardized way of identifying and classifying synesthetes.
             However, current approaches do not account for the breadth of
-            individual and cultural differences amongst synesthetes.
-            Specifically within chromesthesia, research has largely failed to
-            account for idiosyncrasies within synesthetes. Researchers have also
-            adopted an overly aggressive focus on Western Classical Music in
-            their research. We propose two major reforms to existing research
-            methods when studying chromesthesia: (1) Broaden testing batteries
-            to allow for the idiosyncratic nature of synesthetes (2) Diversify
-            the professions and cultures of test subjects to better account for
-            environmental differences.
+            individual and cultural differences amongst synesthetes. Researchers
+            have also adopted an overly aggressive focus on western classical
+            music in their research. We propose two major reforms to existing
+            research methods when studying chromesthesia: (1) broaden testing
+            batteries to allow for the idiosyncratic nature of synesthetes, and
+            (2) diversify the professions and cultures of test subjects to
+            better account for environmental differences.
           </p>
           <b>Introduction:</b>
           <p>
-            Research on synesthesia has long ignored the breadth of individual
-            and cultural differences amongst synesthetes. Specifically within
-            chromesthesia, research has largely failed to account for
-            idiosyncrasies within synesthetes. Researchers have also adopted an
-            overly aggressive focus on Western Classical Music in their
-            research. We propose two major reforms to existing research methods
-            when studying chromesthesia: (1) Broaden testing batteries to allow
-            for the idiosyncratic nature of synesthetes (2) Diversify the
-            professions and cultures of test subjects to better account for
-            environmental differences.
+            Research on synesthesia has long ignored the many individual and
+            cultural differences amongst synesthetes. Current research methods
+            place an overemphasis on grapheme and sound-based testing methods
+            when identifying synesthesia. This precludes the recognition of many
+            other forms of synesthesia within the standard battery of tests.
+            Additionally, even within the types of synesthesia that do fall
+            within the standard color and sound test battery, there are issues
+            of culture and learning effects that are not resolved. From our
+            sample of interviewees, it appears that training in western
+            classical music has an effect on the color-sound pairings observed
+            in chromesthesia. This suggests a learning effect that cannot be
+            explored if the stimulus tested is limited exclusively to western
+            classical music, so additional types of music and sounds from other
+            cultures must be tested.
           </p>
           <b>Background:</b>
           <p>
@@ -64,78 +66,71 @@ const PolicyMemo = () => {
             stimulated sensation. For example, an individual with chromesthesia
             might see the color red every time they hear the musical note C#.
             One important characteristic that distinguishes synesthesia from
-            associations, is that the synesthetic pairing of two stimuli is
-            involuntary, automatic, non-suppressible. Additionally, synesthetic
-            pairings are highly consistent throughout the synesthete’s lifespan,
-            and remain unchanged from early childhood. Most interestingly,
-            synesthesia is idiosyncratic, meaning that it manifests itself in a
-            unique way for each person that has it. For example, while Person 1
-            may see the letter A in red, Person 2 might always see the letter A
-            in yellow instead. Many other distinctions between synesthetes have
-            been made, where there has been estimated that there are anywhere
-            from 65 to over 150 different forms of synesthesia. For example, it
-            has also been found that synesthetes can be classified by higher and
-            lower order synesthetes. The distinction between higher and lower
-            synaesthetes was first proposed by Ramachandran and Hubbard in 2001,
-            based on evidence of cross-activation mechanisms operating at
-            different times and in different locations in the brain. Lower
-            synesthetes process the inducing information and generate the
-            concurrent at an early stage in cortical processing, specifically in
-            the fusiform areas that deal with form and colour perception. In
-            contrast, so-called higher synesthetes utilize later areas that
-            manage the conceptual aspects of color. An additional classification
-            of synesthetes includes associator vs. projector synesthetes. For
-            associator synaesthetes, the synesthetic effects occurring
-            concurrent to the stimulus occurs within “their mind’s eye,"" so to
-            speak, meaning that it is internally-perceived by the synesthete.
-            Projector synesthetes experience the concurrent outside of their
-            mind as a physical sensation. In other words, they “project” the
-            concurrent into external space, hence the name. Only recently has a
-            more standardized battery of tests for synesthesia been developed,
-            and these are only for the most common types-- grapheme-colour, or
-            associating letters and numbers with color; and sound-color or
-            chromesthesia, when a musical stimulus such as a tone elicits a
-            color sensation. Most of these tests present the letter or tone
-            stimulus and have participants use a color wheel to describe the
-            evoked sensation, and then the reflex speed and consistency of the
-            responses over multiple tests is examined. The idea behind testing
-            the speed of the response is that if the evoked sensation is truly
-            involuntary, the participant will be quicker at selecting a color
-            than if they needed to actually think and consciously make the
-            association. These tests, and generally tests done on synesthetes,
-            have been done in large part with western music music.
+            everyday associations is that the synesthetic pairing of two stimuli
+            is involuntary, automatic, and non-suppressible. Synesthetic
+            pairings are also highly consistent throughout the synesthete’s
+            lifespan and remain unchanged from early childhood. Most
+            interestingly, synesthesia is idiosyncratic, meaning that it
+            manifests itself in a unique way for each person that has it. For
+            example, while Person 1 may see red when they hear C#, Person 2
+            might always see yellow instead. Many other forms of synesthesia
+            have been discovered; estimates of the number of different forms of
+            synesthesia range anywhere from 65 to over 150.
+          </p>
+          <p>
+            Only recently has a more standardized battery of tests for
+            synesthesia been developed, and these are only for the most common
+            types: grapheme-color, or associating letters and numbers with
+            color, and chromesthesia, when a musical stimulus such as a tone
+            elicits a color sensation. Most of these tests present the letter or
+            tone stimulus and have participants use a color wheel to describe
+            the evoked sensation, and then the reflex speed and consistency of
+            the responses over multiple tests is examined. The idea behind
+            testing the speed of the response is that if the evoked sensation is
+            truly involuntary, the participant will be quicker at selecting a
+            color than if they needed to actually think and consciously make the
+            association. These tests, along with
           </p>
           <b>Supporting Arguments/Analysis:</b>
           <p>
-            In order to study this expansive phenomenon that is synesthesia, we
-            can not restrict ourselves to simply grapheme-based and sound-based
-            testing. As there are so many types of synesthetes with each type
-            being idiosyncratic in nature, there is a very current need for
-            developing tests for the other forms of synesthesia. These include
-            types such as lexical-gustatory synesthesia, where spoken and
-            written language produces a taste or smell, mirror-touch
-            synesthesia, where a touch on one side of the body provokes a
-            sensation on the other side of the body, amongst others. Although
-            these all vary in condition, a similarity in all of them include a
-            reaction from a stimulus. As such, we can use the current
-            grapheme/sound-based standardized test battery method of timing
-            responses to stimuli to help determine whether a reaction to a
-            stimulus is natural or artificial. Unlike the current test battery,
-            participants would not be determining colors they see and the
-            stimulus would not be strictly visual or auditory, but would vary
-            based on the type of synesthesia described by the participant. This
-            would not only allow us to test for other types of synesthesia, but
-            accommodate for higher vs. lower and association vs. projection
-            synesthetes where synesthetes from opposite groups have varying
-            responses to tests. Thus, we propose a more generalized strategy of
-            determining synesthetes, where the defined stimulus and response
-            types are general in nature, but validation of responses is strict.
-            We would thus be opening up testing to the many other forms of
-            synesthesia as well as accommodating synesthesia’s idiosyncratic
-            nature while being relatively confident that the participant isn’t
-            faking reactions. Specifically regarding Chromesthesia and other
-            sound-based synesthesia, the vast majority of current tests utilize
-            Western music in testing.
+            In order to study synesthesia, we cannot restrict ourselves to
+            categorical and quantitative measures that are grapheme-based and
+            sound-based. There are so many types of synesthetes, with each type
+            being idiosyncratic in nature. This idiosyncrasy is seen within our
+            interviewee pool; despite all having chromesthesia, one particular
+            individual had pairings for color, sound, and taste in addition to
+            the standard color and sound. There is an urgent need for developing
+            tests for the other forms of synesthesia, such as lexical-gustatory
+            synesthesia [1] and mirror-touch synesthesia [2], among others. To
+            better identify these different types of synesthesia, a broad range
+            of tests that are not limited to reaction time should be considered.
+            Reaction time components in current test batteries should be
+            retained in order to test for the involuntary component of
+            synesthesia, but a broader set of tests including a range of touch,
+            taste, and olfactory stimuli should be used. This would allow
+            researchers to both account for idiosyncrasies and maintain a
+            systematic method of evaluating synesthesia.
+          </p>
+          <p>
+            Specifically regarding chromesthesia and other sound-based types of
+            synesthesia, the vast majority of current tests utilize western
+            music in testing. This leads to questions as to whether the effects
+            observed are informed by learning and culture. Among our
+            interviewees, who were themselves classically trained musicians, it
+            can be observed that their synesthetic pairing of color and sound
+            does not occur for background noise or even naturalistic sounds.
+            Instead, the effect seems to be particularly strong for music. This
+            implies that there is an element of learning involved in this
+            observed phenomenon. To better parse this learning effect, testing
+            synesthetes from other musical cultures using western musical
+            conventions, and testing western classical musicians using other
+            musical systems should be considered.
+          </p>
+          <hr></hr>
+          <p>[1] where spoken and written language produces a taste or smell</p>
+          <p>
+            [2] where a touch on one side of the body provokes a sensation on
+            the other side of the body
           </p>
           <b>Works Cited</b>
           <p>
@@ -171,6 +166,17 @@ const PolicyMemo = () => {
           <p>
             Simner, J. (2013). Why are there different types of synesthete?
             Frontiers in Psychology, 4. doi:10.3389/fpsyg.2013.00558
+          </p>
+          <p>
+            Specht, K. (2012). Synaesthesia: cross activations, high
+            interconnectivity, and a parietal hub. Translational Neuroscience,
+            3(1). https://doi.org/10.2478/s13380-012-0007-z
+          </p>
+          <p>
+            Ward, J., Huckstep, B., & Tsakanikos, E. (2006). Sound-Colour
+            Synaesthesia: to What Extent Does it Use Cross-Modal Mechanisms
+            Common to us All? Cortex, 42(2), 264–280.
+            https://doi.org/10.1016/s0010-9452(08)70352-6
           </p>
         </div>
       </div>

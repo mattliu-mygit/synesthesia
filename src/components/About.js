@@ -47,7 +47,7 @@ const About = () => {
               textAlign: "center",
             }}
           >
-            Arriele Summitt
+            Arielle Summitt
           </h3>
           <div
             style={{
