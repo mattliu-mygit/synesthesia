@@ -25,12 +25,12 @@ function Header() {
       path: "/participants/Serena",
     },
     {
-      name: "Mira",
-      path: "/participants/Mira",
-    },
-    {
       name: "Nathan",
       path: "/participants/Nathan",
+    },
+    {
+      name: "Mira",
+      path: "/participants/Mira",
     },
   ];
 
