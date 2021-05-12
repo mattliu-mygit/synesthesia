@@ -84,6 +84,7 @@ const About = () => {
             style={{
               width: "100%",
               textAlign: "center",
+              marginTop: "5rem",
             }}
           >
             Jiayu Shao
@@ -120,6 +121,7 @@ const About = () => {
             style={{
               width: "100%",
               textAlign: "center",
+              marginTop: "5rem",
             }}
           >
             Jia-Yi Lee
@@ -160,6 +162,7 @@ const About = () => {
             style={{
               width: "100%",
               textAlign: "center",
+              marginTop: "5rem",
             }}
           >
             Matthew Liu
