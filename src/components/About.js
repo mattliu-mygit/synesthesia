@@ -2,6 +2,7 @@ import React from "react";
 import Matt from "../images/Matt.JPG";
 import Jiayi from "../images/Jiayi.jpg";
 import Jiayu from "../images/Jiayu.png";
+import Arielle from "../images/Arielle.jpg";
 import defaultPfp from "../images/defaultPfp.png";
 
 const About = () => {
@@ -53,7 +54,7 @@ const About = () => {
               width: "15rem",
               height: "15rem",
               borderRadius: "50%",
-              backgroundImage: `url(${defaultPfp})`,
+              backgroundImage: `url(${Arielle})`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -62,7 +63,14 @@ const About = () => {
               marginRight: "auto",
             }}
           ></div>
-          <p>asdfsdafd</p>
+          <p>
+            Hi! My name is Arielle Summitt and I am a junior neuroscience and
+            pre-medicine major/music minor at Johns Hopkins University. “Insight
+            into the Intricacies of Chromesthesia” is the perfect mix of my two
+            favorite subjects, neuroscience and music, and I loved working on
+            this project. In my free time, I sing and run steeplechase on the
+            Hopkins track & field team. Thank you for reading and listening!
+          </p>
         </div>
         <div
           style={{
