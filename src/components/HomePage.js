@@ -114,7 +114,7 @@ const HomePage = () => {
                 here
               </Link>{" "}
               or check out our <b>5-part podcast</b>{" "}
-              <Link style={{ color: "white" }} to="/background">
+              <Link style={{ color: "white" }} to="/podcasts">
                 here
               </Link>{" "}
               or...
